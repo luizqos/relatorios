@@ -1,0 +1,199 @@
+#header{
+    margin-bottom: 20px;
+}
+
+.tab-content{
+    margin-top: 20px;
+}
+
+.nav-tabs>li>a{
+    text-transform: uppercase;
+}
+
+.btn{
+    text-transform: uppercase;
+}
+
+.fa{
+    margin-right: 5px;
+}
+
+.fa-undo{
+    margin-left: 5px;
+}
+
+/*.input-group-btn .btn {
+    color: #999;
+    line-height: 22px;
+    border: 2px solid #bdc3c7;
+}*/
+
+.form-control[disabled] {
+    color: #999;
+    border: 2px solid #bdc3c7;
+}
+
+.actions{
+    position: absolute;
+    right: 0;
+    top: -8px;
+}
+
+.actions a{
+    color: #fff;
+}
+
+.actions a i{
+    font-size: 20px;
+}
+
+.panel-title:hover {
+     cursor: pointer;
+}
+
+.clear{
+    clear: both
+}
+
+.panel-group{
+    clear: both
+}
+
+.select2-container{
+   border: 2px solid #bdc3c7;
+   border-radius: 6px;
+}
+
+.select2-container--default.select2-container--focus .select2-selection--multiple{
+    border:0;
+    outline: none;
+}
+
+.select2-container .select2-selection--multiple{
+    min-height: 37px;
+    border: 0;
+    cursor: default;
+}
+
+.select2-container i.fa{
+    position: absolute;
+    top: 10px;
+    right: 5px;
+}
+
+.input-group.search .input-group-addon{
+    cursor: pointer;
+}
+
+.has-error .select2-container{
+   border: 2px solid #e74c3c;
+   color: #e74c3c;
+   transition: border 0.25s linear, color 0.25s linear, background-color 0.25s linear;
+}
+.cb{
+    clear: both;
+}
+
+
+table{
+    width: 100% !important;
+}
+
+.table-nowrap {
+	table-layout:fixed;
+}
+
+.table-nowrap td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
+
+.CodeMirror {
+    min-height: 400px;
+    border: 1px solid #ddd;
+}
+
+.CodeMirror-linenumbers{
+    width: 29px !important;
+}
+
+.CodeMirror pre {
+    padding-left: 7px;
+    line-height: 1.25;
+}
+
+.CodeMirror-sizer{
+    margin-left: 30px !important;
+}
+
+.disabled a{
+    color: #ccc !important;
+}
+
+.fa-ellipsis-h{
+    color: #ccc;
+}
+
+.dataTables_info{
+    display: none
+}
+
+
+#login-alert{
+    margin-bottom: 20px;
+}
+
+
+.alert{
+    width: 100%;
+    padding: 6px;
+    margin: 0;
+    display: inline-block;
+}
+
+.alert p{
+    width: 70%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#spin1{
+    top: 10px;
+    position: relative;
+    margin-top: 11px;
+    color: #999;
+    opacity: 0.5;
+}
+
+.panel-title a, .panel-title a:hover{
+    color: #fff
+}
+
+.boxes .box-titulo{
+    top: 50%;
+    color: #fff;
+    font-size: 20px;
+}
+
+@media screen and (min-width: 1140px) {
+    .boxes .box {
+        padding-bottom: 12%;
+        width: 17%;
+        margin: 0 .5% 15px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .boxes .box a{
+        font-size: 18px;
+    }
+}
+
+.modal-body {
+    position: inherit;
+    max-height: calc(100vh - 210px);
+    overflow-y: auto;
+}
